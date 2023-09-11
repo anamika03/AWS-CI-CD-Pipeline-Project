@@ -1,7 +1,7 @@
 # End-to-End-CI/CD-Project
 A demo project demonstrating the End-to-End CI/CD pipeline on AWS.Set Up GitHub Repository
 
-# Set up GitHub Repository
+## Set up GitHub Repository
 The first step in our CI journey is to set up a GitHub repository to store our Python application's source code. If you already have a repository, feel free to skip this step. Otherwise, let's create a new repository on GitHub by following these steps:
 
 * Go to github.com and sign in to your account.
@@ -12,7 +12,7 @@ The first step in our CI journey is to set up a GitHub repository to store our P
 * Click on the "Create repository" button to create your new GitHub repository.
 Great! Now that we have our repository set up, we can move on to the next step.
 
-# **Create an AWS CodePipeline**
+### Create an AWS CodePipeline
 In this step, we'll create an AWS CodePipeline to automate the continuous integration process for our Python application. AWS CodePipeline will orchestrate the flow of changes from our GitHub repository to the deployment of our application. Let's go ahead and set it up:
 
 * Go to the AWS Management Console and navigate to the AWS CodePipeline service.
